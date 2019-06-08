@@ -5,7 +5,7 @@ SCSS (https://sass-lang.com/),
 Angular Material (https://material.angular.io/)
 
 Software installation required:
-1.	Nodejs (https://nodejs.org/en/)
+1.	Node.js (https://nodejs.org/en/)
 2.	Angular CLI (https://cli.angular.io/)
 
 User Instructions:
