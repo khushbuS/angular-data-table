@@ -1,8 +1,8 @@
 Technology Used:
 
-Angular (https://angular.io/), 
-SCSS (https://sass-lang.com/), 
-Angular Material (https://material.angular.io/)
+Angular (https://angular.io/), <br />
+SCSS (https://sass-lang.com/), <br />
+Angular Material (https://material.angular.io/) <br />
 
 Software installation required:
 1.	Node.js (https://nodejs.org/en/)
