@@ -1,27 +1,40 @@
-# SmartlinksAngularAssignment
+Technology Used:
+Angular (https://angular.io/)
+SCSS (https://sass-lang.com/)
+Angular Material (https://material.angular.io/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Software installation required:
+1.	Nodejs (https://nodejs.org/en/)
+2.	Angular CLI (https://cli.angular.io/)
 
-## Development server
+User Instructions:
+Navigate to the project folder in cmd.
+Run “ng serve” to view the application at url - http://localhost:4200/ in browser.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Application Workflow:
 
-## Code scaffolding
+AppModule: The root module of the application.
+AppComponent: The root component.
+CustomMaterialModule: Separate NgModule created, that imports and then re-exports all of the Angular Material components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Models:
+User: Interface defining the types of data which is rendering into the main data table.
+SubTableElement: Interface defining the types of data which is rendering into the sub table.
+UserConfirmationService: to manage api calls.
 
-## Build
+First View: 
+LoadDataComponent: The component with the next button and data table.
+ConfirmDialogComponent: The component that shows the dialog box to ask the user confirmation for navigating  to the next screen.
+  -> Unit testing case: Test for data or the response is getting successfully fetched by the api or not. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Second View:
+ShowBoxesComponent: The component that show the 3 boxes design. 
+ 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ 
