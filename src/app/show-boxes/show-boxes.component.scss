@@ -1,0 +1,44 @@
+@mixin box-interface {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  margin: auto;
+}
+.container {
+  width: 100%;
+  position: relative;
+
+  #center-box {
+    background-color: #4285f4;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    @include box-interface;
+  }
+
+  #left-box {
+    background-color: #ea4335;
+    left: 35%;
+    top: 15%;
+    bottom: 0;
+    @include box-interface;
+  }
+
+  #right-box {
+    background-color: #fbbc05;
+    right: 35%;
+    top: 0;
+    bottom: 15%;
+    @include box-interface;
+  }
+}
+
+.container:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+
+
