@@ -5,8 +5,12 @@
   margin: auto;
 }
 .container {
-  width: 100%;
-  position: relative;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   #center-box {
     background-color: #4285f4;
