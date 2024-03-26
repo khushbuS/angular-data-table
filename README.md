@@ -1,14 +1,14 @@
-Technology Used:
+### Technology Used:
 
 Angular (https://angular.io/), <br />
 SCSS (https://sass-lang.com/), <br />
 Angular Material (https://material.angular.io/) <br />
 
-Software installation required:
+### Software installation required:
 1.	Node.js (https://nodejs.org/en/)
 2.	Angular CLI (https://cli.angular.io/)
 
-User Instructions: <br />
+### User Instructions: <br />
 Navigate to the project folder in cmd. <br />
 Run “ng serve” to view the application at url - http://localhost:4200/ in browser.
 
